@@ -1,0 +1,52 @@
+div{
+	display:inline-block;
+	margin-left:10px;
+}
+
+#linear-box{
+	padding:40px 0px;
+	width:100px;
+	border-radius:10px;
+	text-align:center;
+	
+	color:#000;
+	box-shadow:2px 2px 4px 2px #646464;
+	background: #c61c00; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #eb0900 , #107700); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #eb0900, #107700); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #eb0900, #107700); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #eb0900 , #107700); /* Standard syntax */
+
+}
+
+#radial-box{
+	padding:40px 0px;
+	width:100px;
+	border-radius:10px;
+	text-align:center;
+	background:#2db249;
+	color:#000;
+	box-shadow:2px 2px 4px 2px #646464;
+	background: -webkit-radial-gradient(top,circle,#fe1500,#fbfb00,#379900);
+	background: -moz-radial-gradient(top,circle,#fe1500,#fbfb00,#379900);
+	background: -o-radial-gradient(top,circle,#fe1500,#fbfb00,#379900);
+	background: radial-gradient(at top,circle,#fe1500,#fbfb00,#379900);
+
+}
+
+#ellips-box{
+	padding:40px 0px;
+	width:100px;
+	border-radius:10px;
+	text-align:center;
+	background:#2db249;
+	color:#000;
+	box-shadow:2px 2px 4px 2px #646464;
+	background: -webkit-radial-gradient(top,#fe1500,#fbfb00,#379900);
+	background: -moz-radial-gradient(top,#fe1500,#fbfb00,#379900);
+	background: -o-radial-gradient(top,#fe1500,#fbfb00,#379900);
+	background: radial-gradient(at top,#fe1500,#fbfb00,#379900);
+
+}
+
+
